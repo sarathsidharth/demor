@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>Document</title>
+</head>
+<body>
+          <img src="1.jpg" style="height: 500px; width: 500px" id="im" onclick="change()">
+
+          <script>
+          function change()
+               {
+                    console.log(document.getElementById("im").src)
+                  if(document.getElementById("im").src=="file:///home/expertzlab/Desktop/sidMAR24/javascript%20file/1.jpg")
+                    {
+                      document.getElementById("im").src="file:///home/expertzlab/Desktop/sidMAR24/javascript%20file/2.jpg"
+                    }
+                    
+     
+                   
+               }
+              
+     
+     </script>          
+</body>
+</html>
